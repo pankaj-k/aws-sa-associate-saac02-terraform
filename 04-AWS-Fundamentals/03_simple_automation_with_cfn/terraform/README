@@ -1,0 +1,13 @@
+1.  As per the course you need to have a key with name A4L
+2.  If you are using VSCode then in the terminal first run the command
+    aws configure
+    Put in the Access key and Secret access Key details. 
+    For region use us-east-1
+3. Then in the terminal move to the folder where the ec2instance.tf is located.
+4. Run the following commands.
+    terraform init
+    terraform plan
+5. If there are no errors then run the create command. It will prompt you for a yes.
+    terraform apply
+6. Once done with the lab you should delete the whole setup. It will also prompt you for a yes.
+    terraform destroy
